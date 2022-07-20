@@ -1,25 +1,19 @@
-// *********************************************************************************
-// PARABEAC-GENERATED CODE. DO NOT MODIFY.
-//
-// FOR MORE INFORMATION ON HOW TO USE PARABEAC, PLEASE VISIT docs.parabeac.com
-// *********************************************************************************
-
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:hrm_final/widgets/page_1/custom/counter_button_custom.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:hrm_final/widgets/page_1/counter_value_holder.g.dart';
 
-class MyAppScreen extends StatefulWidget {
-  const MyAppScreen({
+class Home extends StatefulWidget {
+  const Home({
     Key? key,
   }) : super(key: key);
   @override
-  _MyAppScreen createState() => _MyAppScreen();
+  _Home createState() => _Home();
 }
 
-class _MyAppScreen extends State<MyAppScreen> {
-  _MyAppScreen();
+class _Home extends State<Home> {
+  _Home();
 
   @override
   Widget build(BuildContext context) {
